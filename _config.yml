@@ -9,8 +9,8 @@ highlighter: pygments
 permalink: /:categories/:year/:month/:day/:title 
 
 #### Markdown Processors
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+kramdown:
   extensions:
     - hard_wrap
     - no_intra_emphasis
